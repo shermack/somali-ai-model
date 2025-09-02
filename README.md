@@ -16,13 +16,13 @@ This project is structured with **collaboration, scalability, and automation** i
 ## 📂 Repository Structure  
 
 .
-├── data/ # Datasets & preprocessing scripts
-├── models/ # Model training & saved weights
-├── notebooks/ # Jupyter notebooks for experimentation
-├── src/ # Core source code
-├── tests/ # Unit and integration tests
-├── docs/ # Documentation (MkDocs/Sphinx)
-└── .github/workflows/ # CI/CD workflows
+├── data/                # Datasets & preprocessing scripts  
+├── models/              # Model training & saved weights  
+├── notebooks/           # Jupyter notebooks for experimentation  
+├── src/                 # Core source code  
+├── tests/               # Unit and integration tests  
+├── docs/                # Documentation (MkDocs/Sphinx)  
+└── .github/workflows/   # CI/CD workflows 
 
 
 ---
