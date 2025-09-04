@@ -39,14 +39,22 @@ By leveraging **Artificial Intelligence (AI), Machine Learning, and NLP**, we ai
 
 ## 🗂️ Project Structure  
 
-/data → JSON/CSV files (proverbs, stories, poems, translations)
-/audio → Audio recordings (oral histories, songs, chants)
-/video → Cultural performances, storytelling, rituals
-/images → Textiles, architecture, artifacts
-/docs → Project documentation, metadata schemas
-/assets → Icons, diagrams, logos
-
-
+/data       → JSON/CSV files (proverbs, stories, poems, translations)  
+/audio      → Audio recordings (oral histories, songs, chants)  
+/video      → Cultural performances, storytelling, rituals  
+/images     → Textiles, architecture, artifacts  
+/docs       → Project documentation, metadata schemas  
+/assets     → Icons, diagrams, logos  
+/scripts    → Processing & automation scripts  
+   ├── ingest/       → Scripts to collect & upload raw data (text/audio/video)  
+   ├── clean/        → Cleaning & normalization (remove noise, duplicates, formatting)  
+   ├── transcribe/   → ASR models for Somali speech-to-text + timestamp alignment  
+   ├── translate/    → Translation helpers (Somali ↔ English/Arabic/Swahili)  
+   ├── annotate/     → Metadata tagging (genre, region, speaker demographics)  
+   ├── nlp/          → Tokenization, sentence splitting, corpus building  
+   ├── vision/       → Image/video preprocessing (resize, normalize, label)  
+   ├── export/       → Export scripts (LLM-ready JSONL, TFRecord, Parquet)  
+   └── utils/        → Shared utilities (logging, config, helpers) 
 ---
 
 ## 🔗 Platforms We Use  
