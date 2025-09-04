@@ -91,7 +91,7 @@ By leveraging **Artificial Intelligence (AI), Machine Learning, and NLP**, we ai
 
     Use the metadata schema (language, region, type, date, consent).
 
-    Ensure translations are accurate (Somali → English/Arabic/Swahili).
+    Ensure translations are accurate (Somali → English/Swahili).
 
 🔬 CI/CD Automation
 
