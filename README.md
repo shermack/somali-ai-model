@@ -70,7 +70,7 @@ By leveraging **Artificial Intelligence (AI), Machine Learning, and NLP**, we ai
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/YourOrg/YourRepo.git
+  https://github.com/shermack/somali-ai-model.git
    cd YourRepo
 
     Explore the data (start with /data for proverbs & oral texts).
