@@ -168,12 +168,4 @@ Help us preserve, digitize, and reimagine Somali culture for the digital age.
     “Heritage is power, data is memory, AI is the bridge.”
 
 
----
-
-⚡ This `README.md` will look **elegant, professional, and futuristic** when uploaded to your GitHub.  
-- Decorative emojis ✅  
-- Section dividers ✅  
-- Cultural + AI balance ✅  
-
----
 
