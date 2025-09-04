@@ -1,66 +1,171 @@
-# SOMALI AI MODEL
+# 🌍 Somali Culture AI Project  
+*Harnessing AI to Document and Preserve Somali Heritage*  
 
-Welcome to our project! This repository contains all the source code, workflows, and documentation for our collaborative development.  
-
----
-
-## 📌 Overview  
-This project is structured with **collaboration, scalability, and automation** in mind. We are using:  
-- **GitHub** for version control, branching, and CI/CD.  
-- **Notion** as our knowledge base and documentation hub.  
-- **Trello** for task management and Kanban tracking.  
-- **GitHub Actions** for automation (tests, linting, training workflows, docs).  
+![GitHub Repo stars](https://img.shields.io/github/stars/YourOrg/YourRepo?style=for-the-badge&color=blue)  
+![Build Status](https://img.shields.io/github/actions/workflow/status/YourOrg/YourRepo/validate.yml?branch=main&style=for-the-badge&logo=github)  
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)  
 
 ---
 
-## 📂 Repository Structure  
+## ✨ Vision  
 
-.
-├── data/                # Datasets & preprocessing scripts  
-├── models/              # Model training & saved weights  
-├── notebooks/           # Jupyter notebooks for experimentation  
-├── src/                 # Core source code  
-├── tests/               # Unit and integration tests  
-├── docs/                # Documentation (MkDocs/Sphinx)  
-└── .github/workflows/   # CI/CD workflows 
+> **“If culture is not preserved, memory is lost. If memory is lost, the future is blurred.”**  
+
+The **Somali Culture AI Project** is a groundbreaking initiative to create the **first centralized digital repository** of Somali oral traditions, proverbs, poetry, songs, and cultural practices.  
+By leveraging **Artificial Intelligence (AI), Machine Learning, and NLP**, we aim to **safeguard the Somali heritage** for future generations, researchers, and communities worldwide.  
+
+---
+
+## 🎯 Mission  
+
+- 📖 Collect, digitize, and archive **oral histories, proverbs, stories, and poetry**.  
+- 🎙️ Record **high-fidelity audio and video performances** of Somali traditions.  
+- 📊 Structure the data into a **multimodal dataset** (text, audio, image, video).  
+- 🤖 Enable **AI-powered transcription, translation, and cultural knowledge retrieval**.  
+- 🌍 Create a **living archive** accessible to scholars, communities, and future AI systems.  
+
+---
+
+## 🏛️ Cultural Domains  
+
+- 🗣️ **Oral Literature** – Gabayo, Geeraar, Buraanbur, Proverbs, Riddles.  
+- 🎶 **Music & Performing Arts** – Songs, Chants, Dance, Instruments.  
+- 🎨 **Visual Arts** – Henna, Textiles, Crafts, Calligraphy.  
+- 🏘️ **Architecture** – Aqal Somali, Mosques, Stone towns, Diaspora structures.  
+- 🍲 **Foodways** – Traditional recipes, preparation rituals.  
+- 👥 **Kinship & Social Practices** – Clan histories, community roles, diaspora life.  
+
+---
+
+## 🗂️ Project Structure  
+
+/data → JSON/CSV files (proverbs, stories, poems, translations)
+/audio → Audio recordings (oral histories, songs, chants)
+/video → Cultural performances, storytelling, rituals
+/images → Textiles, architecture, artifacts
+/docs → Project documentation, metadata schemas
+/assets → Icons, diagrams, logos
 
 
 ---
 
-## 🌿 Branching Strategy  
+## 🔗 Platforms We Use  
 
-We use **GitHub Flow** with clear roles:  
+- 📌 [**Trello**](https://trello.com/yourboard) – Task & workflow management  
+- 📘 [**Notion**](https://notion.so/yourworkspace) – Documentation & knowledge hub  
+- 💻 [**GitHub**](https://github.com/YourOrg) – Data repository & collaboration  
+- ☁️ **Cloud Storage** – For high-resolution audio/video (Drive / AWS S3 / Azure)  
 
-- **`main`** → production-ready & stable.  
-- **`dev`** → integration branch for development.  
-- **`feature/*`** → each feature has its own branch (merged into `dev`).  
+---
 
-Example workflow:  
+## 🚀 Getting Started  
 
-```bash
-git checkout dev
-git checkout -b feature/data-pipeline
-# work on changes
-git add .
-git commit -m "Added initial data pipeline"
-git push -u origin feature/data-pipeline
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/YourOrg/YourRepo.git
+   cd YourRepo
 
-⚡ GitHub Actions (CI/CD)
+    Explore the data (start with /data for proverbs & oral texts).
 
-Automation is built into our workflow:
+    Contribute new content
 
-    ✅ Testing → Runs pytest on every PR.
+        Add files in the right folder.
 
-    🧹 Linting & Formatting → flake8 + black to enforce clean code.
+        Follow the metadata template.
 
-    🤖 Model Training → Automated model training workflows.
+        Submit a Pull Request (PR).
 
-    📖 Documentation Build → Auto-deploy docs using MkDocs/Sphinx.
+✅ Contribution Guidelines
 
-📋 Project Management
+    Always respect cultural sensitivity.
 
-    📝 Notion → Documentation, research notes, and meeting summaries.
+    Credit storytellers, elders, poets, and contributors.
 
-    📌 Trello → Task board (To Do → In Progress → Review → Done).
+    Use the metadata schema (language, region, type, date, consent).
 
-    🔗 GitHub Issues & PRs → Linked with Trello for transparency.
+    Ensure translations are accurate (Somali → English/Arabic/Swahili).
+
+🔬 CI/CD Automation
+
+Every contribution is checked through GitHub Actions:
+
+    ✅ JSON/CSV validation.
+
+    ✅ Metadata completeness.
+
+    ✅ Automatic formatting & cleanup.
+
+This ensures our dataset is clean, reliable, and ready for AI training.
+🌐 Futuristic Somali Viewpoint
+
+This project is not just a dataset — it is a time capsule of Somali wisdom.
+
+    AI models trained on this data will speak, translate, and preserve Somali culture.
+
+    Researchers will gain authentic cultural datasets.
+
+    Somali youth and diaspora will see their culture represented in future technologies.
+
+    “We are not just archiving the past — we are coding the future of Somali identity.”
+
+👥 Core Target Groups
+
+    Elders & Poets 🧓🏽🎤
+
+    Women’s Groups 💃🏽🎨
+
+    Religious & Community Leaders 🕌
+
+    Artisans, Designers, Architects 🧵🏘️
+
+    Teachers & Linguists 📚
+
+    Youth Creatives (YouTubers, TikTokers, Musicians) 📱🎶
+
+    Archivists & Museum Staff 🏛️
+
+    Diaspora Communities 🌍
+
+📅 Roadmap
+
+    Phase 1 (Now): Collect existing digital/print materials.
+
+    Phase 2: Field data collection (oral interviews, performances).
+
+    Phase 3: Digitization, transcription, translation.
+
+    Phase 4: Build public-facing platform (API + website).
+
+    Phase 5: AI-driven search, transcription & knowledge retrieval.
+
+📜 License
+
+This project is licensed under the MIT License.
+⚠️ Data contributions must respect cultural ownership, intellectual property, and ethical consent.
+🤝 Acknowledgements
+
+A project made possible by:
+
+    Somali elders, poets, and communities who keep traditions alive.
+
+    Cultural institutions, museums, and archives.
+
+    Technologists and researchers working to preserve heritage.
+
+🌟 Join Us
+
+Help us preserve, digitize, and reimagine Somali culture for the digital age.
+📌 Contribute data, code, translations, or simply ideas.
+
+    “Heritage is power, data is memory, AI is the bridge.”
+
+
+---
+
+⚡ This `README.md` will look **elegant, professional, and futuristic** when uploaded to your GitHub.  
+- Decorative emojis ✅  
+- Section dividers ✅  
+- Cultural + AI balance ✅  
+
+---
+
