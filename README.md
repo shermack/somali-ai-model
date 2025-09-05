@@ -85,7 +85,7 @@ By leveraging **Artificial Intelligence (AI), Machine Learning, and NLP**, we ai
 
 ✅ Contribution Guidelines
 
-    Always respect cultural sensitivity.
+    Always observe cultural sensitivity.
 
     Credit storytellers, elders, poets, and contributors.
 
@@ -136,7 +136,7 @@ This project is not just a dataset — it is a time capsule of Somali wisdom.
 
 📅 Roadmap
 
-    Phase 1 (Now): Collect existing digital/print materials.
+    Phase 1 : Collect existing digital/print materials.
 
     Phase 2: Field data collection (oral interviews, performances).
 
